@@ -1,0 +1,302 @@
+*{
+    scroll-behavior: smooth;
+}
+.mg-t{
+    margin-top: 50px;
+}
+.mg-b{
+    margin-bottom: 50px;
+}
+.mg-b2{
+    margin-bottom: 20px;
+}
+.pd-l{
+    padding-left: 50px;
+}
+.pd-r{
+    padding-left: 30px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.navbar{
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.91);
+}
+.navbar-t{
+  margin-left: auto;
+   
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    margin: 0 13px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: red;
+   
+}
+
+.navbar-brand{
+    font-size: 28px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.menu{
+    color: red;
+}
+.navbar-collapse{
+    align-items: center;
+    text-align: center;
+    padding: 16px 0;
+    text-align: center ;
+}
+
+
+.navbar-t li{
+    margin: 0 3px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
+.navbar-toggler{
+    color: red;
+}
+.navbar-social{
+   flex-direction: row;
+justify-content: center;
+}
+.navbar-social i{
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.navbar-social i:hover{
+    color: red;
+}
+
+/*<--firstDiv-->*/
+
+.home{
+    background-image: url(https://www.fzsportsacademy.com/wp-content/uploads/2018/07/banner02.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.media-container{
+   
+    background-color: black ;
+    height: 300px;
+}
+#media {
+    background-color: transparent;
+    border-radius: 15px;
+}
+#media h1 {
+    font-size: 38px;
+    color: red;
+}
+
+#media p {
+    font-size: 16px;
+    color: red;
+}
+
+#info-text {
+    color: red;
+}
+
+.info p {
+    font-size: 40px;
+    color: white;
+}
+
+#infoimg {
+    width: 550px;
+    height: 450px;
+    border-radius: 30px;
+}
+
+#media {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+#media h6 {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+/*<!--textBox-->*/
+.text-box{
+    margin-top: 220px;
+}
+
+#text-box-text {
+    color: red;
+}
+
+.text-box h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.text-box p {
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#buttonStyle {
+    transition: all .5s ease;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 28px;
+    color: black;
+}
+
+
+#buttonStyle:hover {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.text-box p {
+    color: red;
+}
+.descriptionTitle{
+    font-size: 50px;
+}
+.description{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+
+/*<--aboutUS-->*/
+
+.aboutUS-container{
+    background-color:rgb(243 239 239 / 30%);
+}
+#textInCol{
+    font-weight: 700;
+    color: black;
+    font-size: 60px;
+}
+.text-column{
+    text-align: center;
+}
+#info-text {
+    color: red;
+}
+
+.aboutUS-container p {
+    font-size: 40px;
+    color: white;
+}
+.aboutUS-container h6{
+    font-size: 20px;
+    font-weight: ;
+    color: grey;
+}
+.image-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/*<--contact-->*/
+
+
+.contact{
+    background: white url();
+        background-blend-mode: darken;
+        background-attachment: fixed;
+        padding: 83px 5px 58px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.contact-info h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+}
+form input,form textarea{
+    display: block;
+    width: 100%;
+    outline: none;
+    margin-bottom: 30px;
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+form input:focus,form textarea:focus{
+    
+    border-color:  black;
+  
+}
+form button{
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    font-size: 23px;
+    letter-spacing: -0.5px;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background-color: red;
+}
+.contcat-map h2{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+}
+.contcat-map p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.contcat-map p i{
+    color: red;
+}
+iframe{
+    width: 431px;
+    height: 351px;
+}
+
+
+
+
+    @media (min-width: 994px) {
+        .addtion-r::after{
+            content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 1px;
+        height: 93%;
+        background-color: #131212;
+            
+        }
+      }
